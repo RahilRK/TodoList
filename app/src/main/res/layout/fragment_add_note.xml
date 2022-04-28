@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.Home.HomeFragment">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentTop="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/margin8"
+            app:navigationIcon="@drawable/ic_close" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appBar"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_marginTop="@dimen/margin16"
+        android:layout_marginEnd="@dimen/margin16"
+        android:background="@color/bgColor"
+        android:hint="@string/title"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize20"
+        android:textStyle="bold"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:padding="@dimen/margin4"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_marginBottom="@dimen/margin16"
+        android:layout_marginEnd="@dimen/margin16"
+        android:padding="@dimen/margin4"
+        android:maxLength="500"
+        android:textSize="@dimen/textSize16"
+        android:background="@color/bgColor"
+        android:textColor="@color/textColor"
+        android:inputType="textMultiLine"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:hint="@string/note"/>
+
+</RelativeLayout>

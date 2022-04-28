@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/card_border_bg.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_add.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_close.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_delete.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_delete_white.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/drawable/ic_tick.xml" value="0.18385416666666668" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/layout/fragment_add_note.xml" value="0.22" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/layout/fragment_menu.xml" value="0.16770833333333332" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/layout/home_rv_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/menu/addnote_optionmenu.xml" value="0.16770833333333332" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/menu/demo.xml" value="0.16770833333333332" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/menu/home_tab_menu.xml" value="0.16770833333333332" />
+        <entry key="..\:/Rahil/AndroidProjects/TodoList/app/src/main/res/menu/menu_inventoryfrag.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

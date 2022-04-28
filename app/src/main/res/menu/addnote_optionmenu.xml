@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/savenotes_menu"
+        app:showAsAction="always"
+        android:title="@string/add_note"
+        android:visible="false"
+        android:icon="@drawable/ic_done"/>
+
+    <item
+        android:id="@+id/removenotes_menu"
+        app:showAsAction="always"
+        android:title="@string/remove_note"
+        android:visible="false"
+        android:icon="@drawable/ic_delete"/>
+</menu>
